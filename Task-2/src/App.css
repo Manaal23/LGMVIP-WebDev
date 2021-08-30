@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.c{
+  background-color: rgb(143, 58, 255);
+}
+
+.table-header{
+  color: aliceblue;
+}
+
+.btn-info{
+  background-color: #8f40ff;
+  border-color:rgb(63, 0, 145);
+}
+
+.btn-info:hover{
+  background-color: #b37dff;
+}
+
+.btn-info:focus{
+  background-color: #8f40ff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(72, 0, 167);
+  color: rgb(162, 112, 209);
+}
+
+.table-header {
+  font-weight: 500;
+}
